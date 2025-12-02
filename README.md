@@ -5,7 +5,7 @@ A Python-based tower-defense simulation inspired by Plants vs. Zombies. The proj
 
 **Live Game:** 
 
-![Ants animation](https://raw.githubusercontent.com/YennyYing/datac88c1_bees/main/ants.gif)
+![Ants animation](https://raw.githubusercontent.com/YennyYing/datac88c1_bees/refs/heads/main/ants.gif)
 
 ## Author
 Yuan Ying  
@@ -19,26 +19,21 @@ Yuan Ying
 
 **Tech used:** Python, Object-Oriented Programming, Inheritance, Simulation Modeling
 
-This project was built as a turn-based simulation game in Python. The implementation centers around a structured class hierarchy (`Insect`, `Ant`, `Bee`, `Place`, etc.) that models combat interactions, movement, and turn-by-turn state updates.
+This project was built as a **turn-based simulation game in Python**. The implementation centers around a structured class hierarchy (`Insect`, `Ant`, `Bee`, `Place`, etc.) that models combat interactions, movement, and turn-by-turn state updates.
 
 I implemented multiple ant subclasses featuring specialized mechanics—ranged attackers, explosive ants, container ants, aquatic ants, and a final Queen Ant with permanent buff logic. The simulation loop handles bee waves, ant actions, and environmental constraints such as water tiles.
 
 This project highlights my ability to design clean, modular systems, extend classes through inheritance, and build a fully functional simulation engine from scratch.
 
 ## Features
-- Full turn-based simulation with GUI and CLI modes
-- Multiple ant types with unique attack styles and cooldowns
-- Container ants that allow stacking abilities (BodyguardAnt, TankAnt)
-- Special effects including slow, scare, and splash damage
-- Support for aquatic tiles and underwater ants
-- Queen Ant mechanics with permanent damage buffs
-- Predefined enemy waves and hive structure
+- **Turn-based battle system** with both GUI and command-line play
+- **Diverse ant classes**, each with unique abilities, damage types, and cooldown mechanics
+- **Stackable ant abilities** via container ants (e.g., BodyguardAnt, TankAnt)
+- **Status effects** such as slowing, scaring enemies, and area-of-effect attacks
+- **Aquatic mechanics** supporting underwater ants and water-specific behaviors
+- **Queen Ant system** enabling global team buffs and long-term strategic advantages
+- **Preconfigured enemy waves** and hive layouts to create structured, escalating difficulty
 
 ---
-
-## Packages
-```markdown
-The project uses only Python’s built-in libraries.  
-Run the game with:
-python3 ants.py
-python3 ants_gui.py
+## Lessons Learned:
+From this project, I learned how to design a multi-class system, manage interactions between many moving parts, and turn abstract rules into clean Python code. It strengthened my understanding of inheritance, state updates, debugging, and simulation design. Most importantly, it taught me how to structure a large Python project in a clear and maintainable way.
