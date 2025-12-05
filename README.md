@@ -3,7 +3,7 @@
 ## Description
 A Python-based tower-defense simulation inspired by Plants vs. Zombies. The project implements a full object-oriented game engine where different ant types defend their colony from invading bees. Players can explore unique ant abilities, container mechanics, ranged attacks, status effects, and simulated turns within a multi-tunnel layout.  
 
-**Live Game:** 
+**Live Game:**
 
 ![Ants animation](https://raw.githubusercontent.com/YennyYing/datac88c1_bees/refs/heads/main/ants.gif)
 
